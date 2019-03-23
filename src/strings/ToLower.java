@@ -6,6 +6,23 @@ package strings;
  *
  */
 public class ToLower {
+	
+	/*
+	public String toLowerCase(String str) 
+    {
+        char[] a = str.toCharArray();
+        
+        for (int i = 0; i < a.length; i++)
+        {
+            if (a[i] >= 'A' && a[i] <= 'Z')
+            {
+                a[i] = (char)(a[i] - 'A' + 'a');
+            }
+        }
+        return new String(a);
+    }
+	
+	*/
     public String toLowerCase(String str) 
     {
         char[] strChar = str.toCharArray();
@@ -22,12 +39,14 @@ public class ToLower {
             }
         }
         
-                return new String(strChar);
+        return new String(strChar);
     }
     
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) 
+	{
+		ToLower tl = new ToLower();
+		System.out.println(tl.toLowerCase("Hello"));
+	
 	}
 
 }

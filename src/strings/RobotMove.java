@@ -8,11 +8,11 @@ package strings;
  */
 public class RobotMove 
 {
-	 /**
-	    *  -1,1   1,0   1,1
-	    *  -1,0   0,0   0,1
-	    *  -1,-1  0,-1  1,-1
-	    */
+    /**
+    *  -1,1   1,0   1,1
+    *  -1,0   0,0   0,1
+    *  -1,-1  0,-1  1,-1
+    */
 	    public boolean judgeCircle(String moves) 
 	    {
 	        int x = 0;
